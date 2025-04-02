@@ -42,3 +42,29 @@ const myfun=function(){
 console.log(typeof ("prince"));
 console.log(typeof (null));
 console.log(typeof (undefined));
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+//memory management
+//stack(primitive) ,heap(non-primitive)
+//primitive
+let myyoutubename="princeupadhyaydotcom";
+
+let anothername=myyotubename; //here a copy will create 
+anothername="chaiorcode";
+
+console.log(myyoutubename);//princeupadhyaydorcom
+console.log(anothername);//chaiorcode
+
+//nonprimitive
+let user1={                    //it will create in heap 
+  email:"user@google.com",
+  upi:"user@ybl"
+}
+let user2=user2; //copy will not create instead it reference the user1 and changes done in user1
+user2.enail="prince@123";
+
+console.log(user1.email);//  prince@123
+console.log(user2.email);//  prince@123
+
+
+
