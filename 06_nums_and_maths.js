@@ -1,17 +1,17 @@
 //----------------------------------------numbers---------------------------------------------------------------------------------------------
 const score = 400;
-//console.log(typeof score);//number , but js detect it automatically
+console.log(typeof score);//number , but js detect it automatically
 
 const balance = new Number(100);//here we explicitly defined that it is number type
-// console.log(balance);//[number:100]
-// console.log(balance.toString().length);//balance is converted into string and then we used length property to find its length
-// console.log(balance.toFixed(2));//for precision value
+console.log(balance);//[number:100]
+console.log(balance.toString().length);//balance is converted into string and then we used length property to find its length
+console.log(balance.toFixed(2));//for precision value
 
 const othernumber = 23.8966
-//console.log(othernumber.toPrecision(4));//23.9 it round of the value upto 4 digits
+console.log(othernumber.toPrecision(4));//23.9 it round of the value upto 4 digits
 
 const hundreds = 1000000;
-//console.log(hundreds.toLocaleString('en-IN'));
+console.log(hundreds.toLocaleString('en-IN'));
 
 
 //------------------------------------------maths----------------------------------------------------------------------------------------------
