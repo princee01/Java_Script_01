@@ -60,7 +60,7 @@ let user1={                    //it will create in heap
   email:"user@google.com",
   upi:"user@ybl"
 }
-let user2=user2; //copy will not create instead it reference the user1 and changes done in user1
+let user2=user1; //copy will not create instead it reference the user1 and changes done in user1
 user2.enail="prince@123";
 
 console.log(user1.email);//  prince@123
