@@ -1,7 +1,7 @@
 // let score = 33; //number
 // let score = "33"; // string
 // let score = "33abc"; //NaN
-// let score = null; //0
+// let score = null; //object
 let score = undefined; //NaN
 
 //console.log(typeof score);
