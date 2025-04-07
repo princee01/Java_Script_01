@@ -32,11 +32,13 @@ console.log(myarr);//[ 2, 3, 5, 7, 9 ]
 console.log(myarr.includes(9));//true
 console.log(myarr.indexOf(19));//-1
 
+//join()->takes all element of array and convert them into string. 
 const newArr = myarr.join();
 console.log(myarr);//[ 2, 3, 5, 7, 9 ]//it is an array
 console.log(newArr);//2,3,5,7,9//it converted into string
 console.log(typeof newArr);//string
 
+//-------------------------------------------------------------------------------------------------------------------------------------------
 //*slice,splice
 
 console.log("A ", myarr);
