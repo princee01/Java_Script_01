@@ -8,6 +8,7 @@ let isloggedin = false;
 let value = null;
 let state;
 
+//Symbol: unique and immutable primitive value that can be used to create unique identifiers for objects, properties, or methods.
 const id=Symbol('123');
 const anotherid=Symbol('123');
 
